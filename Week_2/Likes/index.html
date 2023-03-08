@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <h1 id="NavBar">Network</h1>
+    <h1 id="YourFeed">Your Feed</h1>
+    <div class="content_container">
+
+        <!-- Left Column -->
+        <div class="left_container">
+            <img src="user-circle.png" alt="Profile Picture">
+            <a href="#Nolink">Add an avatar</a>
+            <h2 id="userName">James Doe</p>
+        </div>
+        <!-- Right Column -->
+        <div class="right_container">
+            <div class="right_box">
+                <div class="header_line">
+                    <h2 id="name">Neil M</h2>
+                    <div class="likes_boxandbutton">
+                        <p id="likes_box1"><span id="likes">9</span>   Like(s)</p>
+                        <button class="like_button" onclick="addlike('#likes')">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think.  <span><a href="#nolink">link</a></span></p>
+            </div>
+            <div class="right_box">
+                <div class="header_line">
+                    <h2 id="name">Nichole K</h2>
+                    <div class="likes_boxandbutton">
+                        <p id="likes_box1"><span id="likes2">12</span>   Like(s)</p>
+                        <button class="like_button" onclick="addlike('#likes2')">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <span><a href="#nolink">next comic,</a></span> check it out.</p>
+            </div>
+            <div class="right_box">
+                <div class="header_line">
+                    <h2 id="name">Jim R</h2>
+                    <div class="likes_boxandbutton">
+                        <p id="likes_box1"><span id="likes3">9</span>   Like(s)</p>
+                        <button class="like_button" onclick="addlike('#likes3')">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <span><a href="#nolink">new album.</a></span> Who else is liking it?</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="nav">
+        <div class="nav-links">
+            <h1>Profile</h1>
+            <ul class="links_left">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+            </ul>
+        </div>
+        <button id="btn">Sign Out</button>
+    </div>  
+
+    <!--Body Container-->
+    <div class="container_parent">
+
+        <!-- Left Column -->
+        <div>
+
+            <!-- User Information Box -->
+            <div class="container_info">
+                <div class="header-card">
+                    <img src="profile-pic.jpg" alt="Profile Picture">
+                </div>
+                <div class="information">
+                    <p id="userName">Jacob Pavelka</p>
+                    <div class="line2">
+                        <img src="map-marker.png" alt="Map marker" id="mapmarker">
+                        <p id="location"> St. Louis </p>
+                    </div>
+                        <p class="line3">Musician | Developer | Pirate<br>
+                        The toothpaste recommended by 1/10 dentists</p>
+                    <div class="line4">
+                        <img src="gear.png" alt="Setting gears" id="gear" onclick="changeName('#userName')">
+                        <a>edit profile</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="container_education">
+                <p class="header_education">Education</p>
+                <p class="education_body">
+                    <span id="education_title">Coding Dojo - Full Stack Bootcamp</span><br>
+                    <span id="education_dates">Jan 2023 - May 2023</span><br><br>
+                    <span id="education_description">Triple black belt in Python, Tae Kwon Do, and C#</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Connections -->
+        <div>
+
+            <!-- Connection Requests -->
+            <div class="container_connection_requests">
+                <div class="header_connection_requests">
+                    <text id="circle">2</text>
+                    <text id="connection_requests">Connection Requests</text>
+                </div>
+                <div class="connection_text_line1">
+                    <div class="align-name">
+                        <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                        <p class=request_name">Harry B</p>
+                    </div>
+                    <div class="align-name">
+                        <img src="accept-circle.png" alt="Checkmark" class="circle" onclick="removeName('.connection_text_line1')">
+                        <img src="close-circle.png" alt="Decline" class="circle" onclick="removeName('.connection_text_line1')">
+                    </div>
+                </div>
+                <div class="connection_text_line2">
+                    <div class="align-name">
+                        <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                        <p class=request_name">Gabe S</p>
+                    </div>
+                    <div class="align-name">
+                        <img src="accept-circle.png" alt="Checkmark" class="circle" onclick="removeName('.connection_text_line2')">
+                        <img src="close-circle.png" alt="Decline" class="circle" onclick="removeName('.connection_text_line2')">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Your Connections -->
+            <div class="container_your_connections">
+                <div class="header_your_connections">
+                    <p id="oval">500+</p>
+                    <p id="connection_requests">Your Connections</p>
+                </div>
+                <div class="align-name-connections">
+                    <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                    <p class=request_name">Tim W</p>
+                </div>
+                <div class="align-name-connections">
+                    <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                    <p class=request_name">Ben I</p>
+                </div>
+                <div class="align-name-connections">
+                    <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                    <p class=request_name">Joel D</p>
+                </div>
+                <div class="align-name-connections">
+                    <img src="user-circle.png" alt="Profile Picture" id="profile_picture">
+                    <p class=request_name">Shravan D</p>
+                </div>
+                <a href="viewmorelink" class="footer_your_connections">View More</a>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

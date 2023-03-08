@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NavBar -->
+    <div class="NavBar">
+        <h1 id="NavBar_Left">DojoWeather</h1>
+        <ul id="NavBar_Right">
+            <li onclick="alert('Loading weather report...')">Burbank</li>
+            <li onclick="alert('Loading weather report...')">Chicago</li>
+            <li onclick="alert('Loading weather report...')">Dallas</li>
+        </ul>
+    </div>
+
+    <!-- title bar -->
+    <div class="title_bar">
+        <h1 id="title_city">San Jose</h1>
+        <div class="title_bar_right">
+            <p>show temperature in </p>
+            <select onchange="changeTemperatureFormat()" id="current">
+                <option id="celsius">°C</option>
+                <option id="fahrenheit">°F</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Temperature Boxes -->
+    <div class="temperature_boxes_main_container">
+        
+        <!-- Box Today -->
+        <div class="temperature_box_container">
+            <div class="today">
+                <h1 class="daily_header">Today</h1>
+                <img src="some_rain.png" alt="clouds with rain" class="weather_picture">
+                <p class="weather_text">some rain</p>
+                <div class="temperatures">
+                    <p class="temp_high"><span id="temp1">24</span>°</p>
+                    <p class="temp_low"><span id="temp2">18</span>°</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box Tomorrow -->
+        <div class="temperature_box_container">
+            <div class="tomorrow">
+                <h1 class="daily_header">Tomorrow</h1>
+                <img src="some_sun.png" alt="sun" class="weather_picture">
+                <p class="weather_text">some rain</p>
+                <div class="temperatures">
+                    <p class="temp_high"><span id="temp3">27</span>°</p>
+                    <p class="temp_low"><span id="temp4">19</span>°</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Box Friday -->
+        <div class="temperature_box_container">
+            <div class="Friday">
+                <h1 class="daily_header">Friday</h1>
+                <img src="some_clouds.png" alt="clouds" class="weather_picture">
+                <p class="weather_text">some rain</p>
+                <div class="temperatures">
+                    <p class="temp_high"><span id="temp5">21</span>°</p>
+                    <p class="temp_low"><span id="temp6">16</span>°</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Box Saturday -->
+        <div class="temperature_box_container">
+            <div class="Saturday">
+                <h1 class="daily_header">Saturday</h1>
+                <img src="some_sun.png" alt="sun" class="weather_picture">
+                <p class="weather_text">some rain</p>
+                <div class="temperatures">
+                    <p class="temp_high"><span id="temp7">26</span>°</p>
+                    <p class="temp_low"><span id="temp8">21</span>°</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Bar -->
+    <div class="cookie_bar">
+        <img src="cookie.png" alt="cookie picture" id="cookie_pic">
+        <div>
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <span><a href="#readmore">Read more...</a></span></p>
+        </div>
+        <button id="accept_button" onclick="eat_cookies('.cookie_bar')">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

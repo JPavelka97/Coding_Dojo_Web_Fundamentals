@@ -1,0 +1,77 @@
+import url ('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container_info {
+    background-color: white;
+    border: 3px solid grey;
+    height: 250px;
+    width: 400px;
+    margin: 100px;
+    z-index: 1;
+}
+
+.header {
+    background-color: lightblue;
+    border-bottom: 2px solid grey;
+    height: 70px;
+}
+
+#profile_picture {
+    height: 60px;
+    width: 60px;
+    margin: 40px;
+    margin-left: 50px;
+    position: absolute;
+    filter: invert();
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.information {
+    margin-top: 35px;
+    margin-left: 50px;
+    margin-right: 150px;
+    font-size: 20pt;
+    align-items: flex-start;
+}
+
+.line2 {
+    font-size: 14pt;
+    display:flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#mapmarker {
+    height: 20px;
+}
+
+#location {
+    margin-left: 8px;
+}
+
+.line3 {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.line4 {
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+#gear {
+    height: 15px;
+margin-right: 10px;
+}
+
+
+
+

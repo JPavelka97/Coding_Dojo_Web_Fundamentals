@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.NavBar {
+    color: white;
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar #loginlogout {
+    background-color: lightblue;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+.content_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left_column {
+    width: 60%;
+}
+
+.definition {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.definition_left_column {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+.definition_left_column #defined_word {
+    font-size: 18px;
+}
+
+.definition_left_column #plural {
+    font-size: 10px;
+}
+
+.definition_left_column #emphasis {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.definition #definition_text {
+    width: 70%;
+}
+
+.add_definition {
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 35%;
+    padding: 10px;
+}
+
+.add_definition #text {
+    padding: 5px;
+}
+
+.add_definition #definition_button {
+    width: 100%;
+    background-color: limegreen;
+    padding: 5px;
+    box-shadow: 4px 4px black;
+}
+
+.LikeButton {
+    width: 80%;
+    margin-top: 10px;
+    padding-top: 5px;
+    background-color: yellow;
+    box-shadow: 4px 4px black;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    
+    <!-- NavBar -->
+    <div class="NavBar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search..">
+        <button id="loginlogout" onclick="logOut(this)">Login</button>
+    </div>
+
+    <div class="content_container">
+        <!-- Left Column -->
+        <div class="left_column">
+            <div class="definition">
+                <div class="definition_left_column">
+                    <h2 id="defined_word">ninja</h2>
+                    <p id="emphasis">noun</p>
+                    <p id="plural">Plural: <span id="emphasis">ninjas</span></p>
+                    <button class="LikeButton" onclick="alert('Ninja was liked!')">13 likes</button>
+                </div>
+                <p id="definition_text">A practitioner skilled in the Japanese art of ninjutsu</p>
+            </div>
+            <div class="definition">
+                <div class="definition_left_column">
+                    <h2 id="defined_word">ninja</h2>
+                    <p id="emphasis">noun</p>
+                    <p id="plural">Plural: <span id="emphasis">ninjas</span></p>
+                    <button class="LikeButton" onclick="alert('Ninja was liked!')">37 likes</button>
+                </div>
+                <p id="definition_text">A programmer who breaks down problems with zen-like focus</p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="add_definition">
+            <h3 id="text">Dojonary is definied by YOU</h3>
+            <button id="definition_button" onclick="hide(this)">Add Definition</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.container {
+    width: 600px;
+    height: 360px;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 0;
+}
+
+.blue {
+    background-color: #004B87;
+    height: 72px;
+    width: 600px;
+    position: absolute;
+}
+
+#blue_2 {
+    top: 144px;
+}
+
+#blue_3 {
+    top: 288px;
+}
+
+.triangle {
+    height: 0;
+    border: 180px solid transparent;
+    /* border-top: 100px solid transparent; */
+    border-right: 0px solid transparent;
+    border-left-color: red;
+    position: absolute;
+    z-index: 3;
+}

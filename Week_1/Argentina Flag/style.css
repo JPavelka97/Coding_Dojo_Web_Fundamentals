@@ -1,0 +1,26 @@
+.container {
+    background-color: grey;
+    width: 600px;
+    height: 360px;
+    border: 3px solid black;
+}
+
+.blue_box {
+    background-color: #6CACE4;
+    width: 600px;
+    height: 120px;
+}
+
+.white_box {
+    background-color: #FFFFFF;
+    width: 600px;
+    height: 120px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sun {
+    height: 120px;
+    
+}

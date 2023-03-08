@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#NavBar {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+#YourFeed {
+    text-align: center;
+    padding: 20px;
+}
+
+.content_container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left_container {
+    border: 2px solid black;
+    width: 20%;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left_container img {
+    width: 100px;
+}
+
+.right_container {
+    margin-left: 5%;
+    width: 65%;
+}
+
+.right_box {
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.header_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.likes_boxandbutton {
+    display: flex;
+    align-items: center;
+}
+
+.like_button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+    background-color: yellow;
+    box-shadow: 2px 2px black;
+}
